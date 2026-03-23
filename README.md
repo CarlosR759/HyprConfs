@@ -44,6 +44,8 @@ Of course you can change the config files or delete them if you just want to use
 
 </details> 
 
+After installation just git clone this repo and put the files into ~/.config/hypr/ folder.
+
 ## FAQ
 
 #### How can not use eww bars ? 
