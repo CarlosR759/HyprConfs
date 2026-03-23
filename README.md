@@ -24,29 +24,24 @@ Of course you can change the config files or delete them if you just want to use
   <summary>Arch</summary>
 
   ```
-    pacman -S hyprland hyprpaper hyprpicker hyprlock xdg-desktop-portal-hyprland hyprpolkitagent hyprsunset
+    sudo pacman -S hyprland hyprpaper hyprpicker hyprlock xdg-desktop-portal-hyprland hyprpolkitagent hyprsunset
   ```
 </details>
 
 <details>
   <summary>Debian/ubuntu</summary>
 
-  ```
    Read this: https://wiki.hypr.land/Getting-Started/Installation/ 
-  ```
   
 </details>
 
 <details>
   <summary>RedHat/Fedora</summary>
 
-  ```
-
    Read this: https://wiki.hypr.land/Getting-Started/Installation/
    This: https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
    And this: https://github.com/hyprwm/Hyprland/discussions/284 
 
-  ```
 </details> 
 
 ## FAQ
@@ -58,8 +53,10 @@ Of course you can change the config files or delete them if you just want to use
     Just go into hyprland.conf and delete the following lines: 
 
     ```
+
     exec-once = eww daemon
     exec-once = eww open clock
+
     ```
 
     But remember that if you want to add another sys bar or widget, you need to follow the docs of the specific bar. The default config file is made in mind to work with my eww system bar.
@@ -74,7 +71,7 @@ Of course you can change the config files or delete them if you just want to use
   <content>
     Just go into hyprland.conf and delete all the exec-once = * lines 
 
-    But if you delete the ``` exec-once = systemctl --user start hyprpolkitagen ```, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
+    But if you delete the exec-once = systemctl --user start hyprpolkitagen, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
   </content>
 </details>
 
