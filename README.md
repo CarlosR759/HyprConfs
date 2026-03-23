@@ -28,9 +28,10 @@ Of course you can change the config files or delete them if you just want to use
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary>Debian/ubuntu</summary>
-   > [!Info]
+
+   > [!NOTE]
    > - Read this: https://wiki.hypr.land/Getting-Started/Installation/ 
   
 </details>
