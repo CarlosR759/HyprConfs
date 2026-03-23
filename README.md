@@ -31,14 +31,13 @@ Of course you can change the config files or delete them if you just want to use
 <details markdown="1">
   <summary>Debian/ubuntu</summary>
 
-   > [!NOTE]
    > - Read this: https://wiki.hypr.land/Getting-Started/Installation/ 
   
 </details>
 
 <details>
   <summary>RedHat/Fedora</summary>
-   > [!Info]
+
    > - Read this: https://wiki.hypr.land/Getting-Started/Installation/
    > - This: https://copr.fedorainfracloud.org/coprs/solopasha/hyprland
    > - And this: https://github.com/hyprwm/Hyprland/discussions/284 
