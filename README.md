@@ -52,14 +52,12 @@ Of course you can change the config files or delete them if you just want to use
   <content>
     Just go into hyprland.conf and delete the following lines: 
 
-    ```
-
+    ```sh
     exec-once = eww daemon
     exec-once = eww open clock
-
     ```
 
-    But remember that if you want to add another sys bar or widget, you need to follow the docs of the specific bar. The default config file is made in mind to work with my eww system bar.
+But remember that if you want to add another sys bar or widget, you need to follow the docs of the specific bar. The default config file is made in mind to work with my eww system bar.
   </content>
 </details>
 
@@ -69,9 +67,9 @@ Of course you can change the config files or delete them if you just want to use
 
 <details>
   <content>
-    Just go into hyprland.conf and delete all the exec-once = * lines 
+Just go into hyprland.conf and delete all the exec-once = * lines 
 
-    But if you delete the exec-once = systemctl --user start hyprpolkitagen, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
+But if you delete the exec-once = systemctl --user start hyprpolkitagen, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
   </content>
 </details>
 
