@@ -35,7 +35,7 @@ Of course you can change the config files or delete them if you just want to use
   
 </details>
 
-<details>
+<details markdown="1">
   <summary>RedHat/Fedora</summary>
 
    > - Read this: https://wiki.hypr.land/Getting-Started/Installation/
@@ -48,7 +48,7 @@ Of course you can change the config files or delete them if you just want to use
 
 #### How can not use eww bars ? 
 
-<details>
+<details markdown="1">
   <content>
     Just go into hyprland.conf and delete the following lines: 
 
@@ -65,10 +65,9 @@ But remember that if you want to add another sys bar or widget, you need to foll
 
 #### How can I just use the keybinds ? 
 
-<details>
+<details markdown="1">
   <content>
 Just go into hyprland.conf and delete all the exec-once = * lines 
-<br>
 
 But if you delete the exec-once = systemctl --user start hyprpolkitagen, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
   </content>
@@ -77,11 +76,10 @@ But if you delete the exec-once = systemctl --user start hyprpolkitagen, then pr
 
 #### My distro is not in the installation part: 
 
-<details>
+<details markdown="1">
   <content>
 Just go into this page: https://wiki.hypr.land/Getting-Started/Installation/  
 
-<br>
 You can notice that some distros are more friendly to install, mainly because Hyprland is very active in development and distros that are made with rolling release of by compiling packages are more friendly to Hyprland, others distros are not generally recomended. In that case I3 window manager can be a nice option if you have an AMD gpu .
   </content>
 </details>
