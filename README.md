@@ -68,7 +68,7 @@ But remember that if you want to add another sys bar or widget, you need to foll
 <details>
   <content>
 Just go into hyprland.conf and delete all the exec-once = * lines 
-
+<br>
 
 But if you delete the exec-once = systemctl --user start hyprpolkitagen, then probably is better to find another alternative for your system. I recomend to use the hyprpolkitagen if you are going to use Hyprland in any case.
   </content>
@@ -79,10 +79,10 @@ But if you delete the exec-once = systemctl --user start hyprpolkitagen, then pr
 
 <details>
   <content>
-    Just go into this page: https://wiki.hypr.land/Getting-Started/Installation/  
+Just go into this page: https://wiki.hypr.land/Getting-Started/Installation/  
 
-
-    You can notice that some distros are more friendly to install, mainly because Hyprland is very active in development and distros that are made with rolling release of by compiling packages are more friendly to Hyprland, others distros are not generally recomended. In that case I3 window manager can be a nice option if you have an AMD gpu .
+<br>
+You can notice that some distros are more friendly to install, mainly because Hyprland is very active in development and distros that are made with rolling release of by compiling packages are more friendly to Hyprland, others distros are not generally recomended. In that case I3 window manager can be a nice option if you have an AMD gpu .
   </content>
 </details>
 
